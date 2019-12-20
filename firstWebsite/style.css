@@ -1,0 +1,135 @@
+body {
+  /* opacity: .6; */
+  /* background-image: url("https://miro.medium.com/max/1812/1*C02wNydKS3IFId-orsyN3A.jpeg"); */
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  clear: both;
+  /* width: 1000px; */
+  /* height: 1000px;  */
+  /* flex-basis: auto; */
+  justify-content: center;
+  align-items: center;
+  align-content: center; 
+  text-align: center;
+  /* margin: 0; */
+  /* padding: center; */
+  /* position: relative; */
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.content {
+  /* width: 400px; */
+  /* height: 100px; */
+  /* padding-top: 350px; */
+  position: static;
+}
+
+#header {
+  opacity: .8;
+  margin: 40px;
+}
+
+#header h1 {
+  color:white;
+  font-size: 200%;
+}
+#header p {
+  color: white;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  border: 0;
+  color: black;
+  padding: 5px 32px;
+  /* text-decoration: none; */
+  margin: 15px 10px;
+  /* cursor: pointer; */
+  border-radius: 10px;
+  opacity: .9;
+}
+
+#emailRow {
+  margin-left: 32px;
+}
+
+#register_reset_btns {
+  opacity: .7;
+}
+
+#register:hover {
+  border-color: #333;
+}
+
+#register {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#reset:hover {
+  border-color: #333;
+}
+
+#reset {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+#gotoblog:hover {
+  border-color: #333;
+}
+
+#gotoblog {
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  color: white;
+  padding: 5px 30px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  opacity: .5;
+}
+
+
+
+
+#form {
+  color: white;
+  justify-content: center;
+  align-content: center;
+  font-weight: lighter;
+  opacity: .8;
+}
+
+
+/* #gotoblog:visited {
+  color: green;
+} */
+
+
+#footer {
+  color: white;
+  opacity: .8;
+}

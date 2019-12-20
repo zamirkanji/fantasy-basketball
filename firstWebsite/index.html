@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Fantasy Basketball Blog</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="content">
+
+      <style id="bgImg">
+        body {
+          /* background-image: url('https://www.rookieroad.com/img/courses/basketball/basketball-rookie.png'); */
+          background-image: url('https://i.pinimg.com/originals/66/00/60/660060b1fed74cb1547dbe38219c889c.jpg');
+
+          /* background-repeat: no-repeat; */
+          background-size: auto;
+          /* position: relative; */
+        }
+      </style>
+
+
+      <div id="header">
+        <header>
+          <h1>Welcome to our Fantasy Blog!</h1>
+          <p>Please Register Below</p>
+        </header>
+      </div>
+      <!-- <hr> -->
+      <form method="POST" id="form">
+        First Name: <input type="text" name="firstname">
+        <br>
+        Last Name: <input type="text" name="lastname">
+        <br>
+        <span id="emailRow">Email: <input type="email" name="email" required></span>
+        <br>
+        Password: <input type="password" min="6" name="password" required>
+        <br>
+        <div id="register_reset_btns">
+          <input id="register" type="submit" value="Register">
+          <input id="reset" type="reset">
+        </div>
+
+      </form>
+
+      <br>
+      <hr>
+
+      <div id="footer">
+        <footer>
+          <p>A login is not required, you may proceed to our website. If you would like to sign up for our weekly
+            newsletters, we would appreciate it. Otherwise, let us know if you have any questions or suggestions.</p>
+        </footer>
+      </div>
+      <div id="nextpage">
+        <!-- <a href="nextpage.html">Proceed</a> -->
+        <input id="gotoblog" type="submit" onclick="location.href='nextpage.html';" value="Proceed">
+      </div>
+
+
+    </div>
+    <script src="script.js"></script>
+  </div>
+</body>
+
+</html>

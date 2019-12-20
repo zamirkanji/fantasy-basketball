@@ -1,0 +1,129 @@
+/*adds ability to change background image opacity*/
+body::before{
+  content:'';
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+  background: url(basketball-rookie.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  text-align: center;
+  position: relative;
+  right: 6px; /*centers buttons on basketball*/
+}
+
+h1 {
+  color: #decdcd;
+  /* position: relative; */
+  font-size: 4.2rem;
+  padding: 50px;
+  padding-top: 10px;
+}
+
+h1 + p {
+  color: #decdcd;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #decdcd;
+  font-weight: 500;
+  margin-bottom: 50px;
+  font-size: 1.2rem;
+}
+
+/* using flexbox to layout text boxes */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.3rem;
+  color: #decdcd;
+  font-weight: 800;
+}
+
+/*fixes textbox width issue*/
+span {
+  display: inline-block;
+  width: 150px;
+}
+
+.txt-box {
+  font-size: 1.2rem;
+}
+
+input {
+  border: 1px solid #2f557d;
+  border-radius: 20px;
+  background-color: #3c7fc7;
+  opacity: .8;
+  margin: 14px 10px;
+  padding: 7px 12px;
+  width: 300px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+/*makes it so button tranform doesn't move other content on page*/
+.btn-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.register-reset, .gotoblog {
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 25px 20px;
+  width: 150px;
+  cursor: pointer;
+  
+}
+
+.register-reset:hover, .gotoblog:hover {
+  background-color: #3c7fc7;
+  border-color: #1f4166;
+  border-width: 4px;
+  transition: .5s;
+  transform: scale(1.1);
+}
+
+
+hr  {
+  /* display: flex;
+  justify-content: center; */
+  border-color: #3c7fc7;
+  border-width: 3px;
+  margin: 25px;
+}
+
+
+
+
